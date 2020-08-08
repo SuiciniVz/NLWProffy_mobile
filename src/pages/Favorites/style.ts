@@ -7,7 +7,7 @@ const style = StyleSheet.create({
   },
   
   teacherItems: {
-    marginTop: -60,
+    marginTop: -40,
   },
 })
 
