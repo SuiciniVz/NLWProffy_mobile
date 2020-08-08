@@ -50,7 +50,7 @@ const style = StyleSheet.create({
     color: '#FFF',
     fontSize: 16,
     fontFamily: 'Archivo_700Bold',
-  },
+  }, 
 })
 
 export default style;

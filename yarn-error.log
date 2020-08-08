@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\jota\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @react-navigation/bottom-tabs
+  C:\Program Files\nodejs\node.exe C:\Users\jota\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add axios
 
 PATH: 
   C:\Users\jota\Documents\cmder\vendor\bin;C:\Users\jota\Documents\cmder\vendor\git-for-windows\cmd;C:\Users\jota\Documents\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\jota\Documents\cmder\vendor\conemu-maximus5;C:\Users\jota\Documents\cmder\vendor\conemu-maximus5\ConEmu;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Java\jre1.8.0_211\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\jota\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\jota\AppData\Local\Programs\Python\Python37-32\;C:\Users\jota\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jota\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2019.2.3\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\jota\AppData\Roaming\npm;C:\Users\jota\Documents\cmder\vendor\git-for-windows\mingw64\bin;C:\Users\jota\Documents\cmder\vendor\git-for-windows\usr\bin;C:\Users\jota\Documents\cmder
@@ -30,6 +30,7 @@ npm manifest:
       "@expo-google-fonts/archivo": "^0.1.0",
       "@expo-google-fonts/poppins": "^0.1.0",
       "@react-native-community/masked-view": "0.1.10",
+      "@react-navigation/bottom-tabs": "^5.8.0",
       "@react-navigation/native": "^5.7.3",
       "@react-navigation/stack": "^5.9.0",
       "expo": "~38.0.8",
@@ -1292,6 +1293,14 @@ Lockfile:
     version "0.1.10"
     resolved "https://registry.yarnpkg.com/@react-native-community/masked-view/-/masked-view-0.1.10.tgz#5dda643e19e587793bc2034dd9bf7398ad43d401"
     integrity sha512-rk4sWFsmtOw8oyx8SD3KSvawwaK7gRBSEIy2TAwURyGt+3TizssXP1r8nx3zY+R7v2vYYHXZ+k2/GULAT/bcaQ==
+  
+  "@react-navigation/bottom-tabs@^5.8.0":
+    version "5.8.0"
+    resolved "https://registry.yarnpkg.com/@react-navigation/bottom-tabs/-/bottom-tabs-5.8.0.tgz#d7386809bceeead0adcaacf61b6563be9cefd5cb"
+    integrity sha512-geF/FSIg6cArY5jLwJJZrp7PDzLoSrONkCgq9n/4yKxtQapB/Pn5ljSHCNRGNkkb/+g8zqRQmEL5yX4DOja0OA==
+    dependencies:
+      color "^3.1.2"
+      react-native-iphone-x-helper "^1.2.1"
   
   "@react-navigation/core@^5.12.3":
     version "5.12.3"

@@ -11,7 +11,7 @@ import style from './style';
 
 function TeacherList () {
 
-  const [isFilterVisible, setFilterVisible] = useState(); 
+  const [isFilterVisible, setFilterVisible] = useState(false); 
 
   function handleToggleFiltersVisible() {
     setFilterVisible(!isFilterVisible)
