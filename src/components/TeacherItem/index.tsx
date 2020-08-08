@@ -9,29 +9,44 @@ import whatsappIcon from '../../assets/images/icons/whatsapp.png'
 
 import style from './style'
 
-function TeacherList () {
+export interface Teacher {
+  name: string,
+  avatar: string,
+  whatsapp: string,
+  bio: string,
+  subject: string,
+  cost: number,
+  id: number,
+}
+
+interface TeacherItemProps {
+  teacher: Teacher;
+}
+
+const TeacherList: React.FC<TeacherItemProps> = ({ teacher }) => {
+
   return (
     <View style={style.container}>
       <View style={style.profile}>
         <Image
           style={style.avatar}
-          source={{ uri: 'https://avatars3.githubusercontent.com/u/50074236?s=460&u=167bed6198c0b8e80e4780f0f4a085019e92fe2f&v=4'}}
+          source={{ uri: `${teacher.avatar}`}}
         />
 
         <View style={style.profileInfo}>
-          <Text style={style.name}>Lucas Vinicius</Text>
-          <Text style={style.subject}>Geografia</Text>
+          <Text style={style.name}>{teacher.name}</Text>
+          <Text style={style.subject}>{teacher.subject}</Text>
         </View>
       </View>
 
       <Text style={style.bio}>
-        Amanha eu acordei hoje blablabla preenchendo espaço para testar o style da pagina caramba ficou muito dahora
+        {teacher.bio}
       </Text>
     
       <View style={style.footer}>
         <Text style={style.price}>
           Preço/Hora {'   '}
-          <Text style={style.priceValue}>R$ 6,45</Text>
+          <Text style={style.priceValue}>R$ {teacher.cost} </Text>
         </Text>
 
         <View style={style.buttonsContainer}>
