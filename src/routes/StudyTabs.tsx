@@ -49,7 +49,7 @@ function StudyTabs () {
             )
           }
         }}
-      />
+      /> 
       <Screen 
         name="Favorites" 
         component={Favorites}
